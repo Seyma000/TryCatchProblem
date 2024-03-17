@@ -5,7 +5,7 @@ public class Main {
         try {
             return numArray[index];
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.err.println("Hata!! Geçersiz indeks. Dizi boyutu: " + numArray.length);
+            System.err.println("Invalid index!! Array size: " + numArray.length);
 
             return -1;
         }
