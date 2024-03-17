@@ -23,8 +23,5 @@ public class Main {
         if (number != -1) {
             System.out.println("Number in the entered index: " + number);
         }
-
-        // System.out.println(getNumber(1));
-        // System.out.println(getNumber(10));
     }
 }
